@@ -10,7 +10,7 @@ cask "heedle" do
   name "heedle"
   desc "Programs of AI steps that run on Temporal and are recorded in Git."
   homepage "https://github.com/heedle-ai/heedle"
-  version "0.2.3"
+  version "0.2.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -26,18 +26,18 @@ cask "heedle" do
   on_macos do
     on_arm do
       url "https://github.com/heedle-ai/heedle/releases/download/v#{version}/heedle_#{version}_darwin_arm64.tar.gz"
-      sha256 "40fb7ddd202bb1adcb33bc5f843bde8bf70d6d5bbd2bb0a45df57602b651951e"
+      sha256 "1c6e3afae022126454daa2d61e8e8c8b9b58ff315820ce0b66a5144a21a78737"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/heedle-ai/heedle/releases/download/v#{version}/heedle_#{version}_linux_amd64.tar.gz"
-      sha256 "ba29bfd5cb4d6cfe38011409e58d66afabfadc1a6a860f81c665d18f5ee7e687"
+      sha256 "a99a7a281388a195669602c8657e0d6d1835d18f7a1655421e28d62082d92669"
     end
     on_arm do
       url "https://github.com/heedle-ai/heedle/releases/download/v#{version}/heedle_#{version}_linux_arm64.tar.gz"
-      sha256 "39f4c0de68b95a620d75806a5f07006546c34a24fea57fc154284c0414b10e6a"
+      sha256 "6684d90cdac14ba8f891b64e5349ebd4958ffb726fe004e5c6d72664c20932dd"
     end
   end
 
